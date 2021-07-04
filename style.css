@@ -1,0 +1,194 @@
+html{
+    font-size: 10px;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    color: gray;
+}
+small{
+    font-size: 1.5rem;
+    color: black;
+}
+span{
+    color: #FA725C;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.intro,.pics{
+    width: 50%;
+}
+.pics img{
+    width: 100%;
+}
+.intro{
+    padding: 7%;
+}
+article{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.experience{
+    display: flex;
+}
+.baby-web-dev,.pro-web-dev{
+    width: 40%;
+    margin: 5%;
+    border-left: violet .5rem solid;
+    padding: 1.5rem 1.5rem 3.5rem 1.5rem;
+    box-shadow: .1rem .1rem 3rem rgb(143, 142, 142);
+}
+.baby-web-dev{
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.pro-web-dev{
+    border-image: linear-gradient(180deg,#ff3d1f,#F98064);
+    border-image-slice: 1;
+}
+button{
+    font-size: 1.5rem;
+    padding: .75rem 2.5rem;
+    border: none;
+    background: linear-gradient(to right,#f75137,#F98064);
+    color: white;
+    border-radius: .35rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 5px;
+    }
+    .home{
+        display:initial;
+    }
+    .pics{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+        margin: 5vh 0;
+    }
+    .pics img{
+        width: 100%;
+    }
+    .intro{
+        width: 80%;
+        height: 30vh;
+        padding: 0 10%;
+    }
+    .experience{
+        display: initial;
+    }
+    .baby-web-dev,.pro-web-dev{
+        width: 85%;
+        margin: 5%;
+        border-left: violet .5rem solid;
+        padding: 1.5rem 1.5rem 7.5rem 1.5rem;
+        box-shadow: .1rem .1rem 3rem rgb(143, 142, 142);
+    }
+}
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+    .home{
+        display:initial;
+    }
+    .pics{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+        margin: 5vh 0;
+    }
+    .pics img{
+        width: 100%;
+    }
+    .intro{
+        width: 80%;
+        height: 30vh;
+        padding: 0 10%;
+    }
+    .experience{
+        display: initial;
+    }
+    .baby-web-dev,.pro-web-dev{
+        width: 85%;
+        margin: 5%;
+        border-left: violet .5rem solid;
+        padding: 1.5rem 1.5rem 7.5rem 1.5rem;
+        box-shadow: .1rem .1rem 3rem rgb(143, 142, 142);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 7.5px;
+    }
+    
+
+}
+@media only screen and (min-width: 992px) {
+    html{
+        font-size: 9px;
+    }
+    .home{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    .intro,.pics{
+        width: 50%;
+        margin: 0;
+        height: 90vh;
+    }
+    .pics img{
+        
+        width: 100%;
+    }
+    .intro{
+        padding: 7%;
+    }
+    .experience{
+        display: flex;
+    }
+    .baby-web-dev,.pro-web-dev{
+        width: 40%;
+        margin: 5%;
+        border-left: violet .5rem solid;
+        padding: 1.5rem 1.5rem 3.5rem 1.5rem;
+        box-shadow: .1rem .1rem 3rem rgb(143, 142, 142);
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 10px;
+    }
+}
